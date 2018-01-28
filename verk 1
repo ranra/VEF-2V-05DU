@@ -1,0 +1,18 @@
+Verkefni 1.
+1. ubuntu server er server útgáfa af ubuntu stýrikerfinu sem er byggt á linux
+serverinn heldur utanum allt þ.e.a.s  html hvaða api er verið að nota og http
+2.Apache og Nginx eru Http serverar sem sjá aðalega um að taka við beiðnum i formi Http og skila svo því er beðið var um sem í flestum tilvikum eru vefsíður.
+Apache kom fyrst á markaðinn átti hann i nokkur ár og svo kom Nginx á markaðinn mað það í huga að bæta það sem Apache var ekkert sérlega gott í . Nginx er með færri möguleikum en Apache en mikið hraða í því sem það gerir.
+3.application servers eru á milli ubuntu serversins og client og sjá meðal annars að byggja upp síðuna sem á að sýna óg converta t.d python kóða yfir í javascript sem browserinn skilur
+
+4.client sendir inn beiðni í gegnum http og application server tekur við þeirri beiðni og vinnur úr henni og sækir það data sem hann þarf frá ubuntu servernum og birtir síðuna.
+
+5.pip er leið til að hala niður og halda utanum python addons 
+6.til að byrja með er http 2 hraðara en 1.1 sem það gerir meðal annars með multiplexing 
+sem sendir út  margar beiðnir í einu á meðan 1.1 gat bara sent út eina í einu
+7.Secure shell er leið til að búa til örugga leið i gegnum óörugga tengingu gott dæmi er svokallað remote login 
+ssh key er crypto key notaður til að þurfa ekki að slá inn password og þarmeð útiloka að því verði stolið
+8.Twofaced authentication er tveggja laga öryggiskerfi sem gegnur út á það að notendur eru ekki bara með password til að komast inná síður gott dæmi væri auðkennislyklarnir sem bankar voru með
+9.Ipv6 er stóri bróðir ipv4 og er 128bita í stað fyrir 32 sem verður nauðsynlegt á endanum er fleiri og fleiri tæki tengjast netinu
+10.
+http://46.101.62.7/
