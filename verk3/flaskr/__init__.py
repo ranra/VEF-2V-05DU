@@ -1,0 +1,1 @@
+from verk3.flaskr.newDB import *

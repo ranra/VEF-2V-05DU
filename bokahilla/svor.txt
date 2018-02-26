@@ -1,0 +1,11 @@
+1.
+MVC er leið til að skipta  öppum í þrjá  tengda hluta  til að geta unnið að hverjum parti óháð hinum og með því er einfaldara að endurnýta kóða .
+Modelið er það sem er á bakvið þetta allt og sér um öll gögnin og "the logic" á bak við vefsíðuna.
+
+2.
+ajax og webSocket eru leiðir fyrir javascript til að senda skilaboð milli client og server án þess að setja allt á bið  websockets er samt betra þvi þa getur farið í full duplex mode og þá getur server líka sent skilaboð á client 
+
+3.
+MV* er þegar það er eiginlega sleppt controller útúr mvc mixinu og splæsa saman view og controller 
+við það er oft notað forrit  sem kallast backbone.js sem bætir við view kóðan
+oft notað við síður sem eiga að vera "responsive" en ekki "refresh"a allir síðunni.
