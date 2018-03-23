@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31ea735f-efa9-4f37-a03c-0bbd3b0e487e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/verk3/verk3.3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/verk4/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/verk4/controllers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/verk4/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/verk4/templates/forsida.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/verk4/templates/hafaSamband.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/verk4/templates/leikarar.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bokahilla/__init__.py" afterPath="$PROJECT_DIR$/bokahilla/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bokahilla/controllers.py" afterPath="$PROJECT_DIR$/bokahilla/controllers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v1/bokahilla/controllers.py" afterPath="$PROJECT_DIR$/v1/bokahilla/controllers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/verk4/templates/leikarar.html" afterPath="$PROJECT_DIR$/verk4/templates/leikarar.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/verk4/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
-              <caret line="29" column="66" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="29" selection-end-column="66" />
+              <caret line="29" column="66" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="29" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -59,13 +53,39 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="6" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bokahilla/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controllers.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bokahilla/controllers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="61" lean-forward="false" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="61" />
               <folding>
-                <marker date="1521461146822" expanded="true" signature="539:553" ph="..." />
-                <marker date="1521461146822" expanded="true" signature="578:603" ph="..." />
-                <marker date="1521461146822" expanded="true" signature="632:791" ph="..." />
-                <marker date="1521461146822" expanded="true" signature="707:732" ph="..." />
-                <marker date="1521461146822" expanded="true" signature="757:782" ph="..." />
+                <element signature="e#0#25#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bokahilla/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,8 +93,8 @@
       <file leaf-file-name="leikarar.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/verk4/templates/leikarar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+            <state relative-caret-position="102">
+              <caret line="6" column="51" lean-forward="false" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -108,7 +128,6 @@
       <list>
         <option value="$USER_HOME$/AppData/Local/Temp/Temp1_mvc_einfalt_synidaemi.zip/mvc_einfalt_synidaemi/bokahilla/controllers.py" />
         <option value="$PROJECT_DIR$/bokahilla/models.py" />
-        <option value="$PROJECT_DIR$/bokahilla/controllers.py" />
         <option value="$PROJECT_DIR$/sqliteTest/check.py" />
         <option value="$PROJECT_DIR$/flask_test/schema.sql" />
         <option value="$PROJECT_DIR$/flask_test/flaskr/templates/layout.html" />
@@ -129,10 +148,12 @@
         <option value="$PROJECT_DIR$/verk4/templates/leikarar.html" />
         <option value="$PROJECT_DIR$/verk4/templates/hafaSamband.html" />
         <option value="$PROJECT_DIR$/verk4/controllers.py" />
+        <option value="$PROJECT_DIR$/bokahilla/controllers.py" />
+        <option value="$PROJECT_DIR$/bokahilla/__init__.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="width" value="1340" />
     <option name="height" value="1047" />
@@ -160,6 +181,11 @@
             <path>
               <item name="VEF-2V-05DU" type="b2602c69:ProjectViewProjectNode" />
               <item name="VEF-2V-05DU" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VEF-2V-05DU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VEF-2V-05DU" type="462c0819:PsiDirectoryNode" />
+              <item name="bokahilla" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="VEF-2V-05DU" type="b2602c69:ProjectViewProjectNode" />
@@ -208,7 +234,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.controllers">
+  <component name="RunManager" selected="Python.controllers (1)">
+    <configuration name="__init__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bokahilla" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="web" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bokahilla/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -226,19 +269,19 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="check" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="controllers (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sqliteTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bokahilla" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="web" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sqliteTest/check.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bokahilla/controllers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -277,37 +320,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="newDB" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sqliteTest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="web" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sqliteTest/newDB.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.newDB" />
-      <item index="1" class="java.lang.String" itemvalue="Python.check" />
-      <item index="2" class="java.lang.String" itemvalue="Python.flaskr" />
-      <item index="3" class="java.lang.String" itemvalue="Python.controllers" />
-      <item index="4" class="java.lang.String" itemvalue="Python.__init__" />
+      <item index="0" class="java.lang.String" itemvalue="Python.flaskr" />
+      <item index="1" class="java.lang.String" itemvalue="Python.controllers" />
+      <item index="2" class="java.lang.String" itemvalue="Python.__init__" />
+      <item index="3" class="java.lang.String" itemvalue="Python.__init__ (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.controllers (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.controllers" />
-        <item index="1" class="java.lang.String" itemvalue="Python.__init__" />
-        <item index="2" class="java.lang.String" itemvalue="Python.flaskr" />
-        <item index="3" class="java.lang.String" itemvalue="Python.newDB" />
-        <item index="4" class="java.lang.String" itemvalue="Python.check" />
+        <item index="0" class="java.lang.String" itemvalue="Python.controllers (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.__init__ (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.controllers" />
+        <item index="3" class="java.lang.String" itemvalue="Python.__init__" />
+        <item index="4" class="java.lang.String" itemvalue="Python.flaskr" />
       </list>
     </recent_temporary>
   </component>
@@ -325,14 +351,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1340" height="1047" extended-state="1" />
+    <frame x="-7" y="0" width="1340" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28175026" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28175026" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -392,13 +418,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="6" selection-end-column="51" />
-          <folding>
-            <marker date="1521461146822" expanded="true" signature="539:553" ph="..." />
-            <marker date="1521461146822" expanded="true" signature="578:603" ph="..." />
-            <marker date="1521461146822" expanded="true" signature="632:791" ph="..." />
-            <marker date="1521461146822" expanded="true" signature="707:732" ph="..." />
-            <marker date="1521461146822" expanded="true" signature="757:782" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -660,46 +680,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/verk4/static/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/bokahilla/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/verk4/svor.txt" />
-    <entry file="file://$PROJECT_DIR$/bokahilla/controllers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bokahilla/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bokahilla/templates/bokalisti.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verk4/templates/forsida.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="6" selection-end-column="51" />
-          <folding>
-            <marker date="1521461146822" expanded="true" signature="539:553" ph="..." />
-            <marker date="1521461146822" expanded="true" signature="578:603" ph="..." />
-            <marker date="1521461146822" expanded="true" signature="632:791" ph="..." />
-            <marker date="1521461146822" expanded="true" signature="707:732" ph="..." />
-            <marker date="1521461146822" expanded="true" signature="757:782" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -713,16 +698,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/verk4/templates/leikarar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verk4/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="102">
+          <caret line="6" column="51" lean-forward="false" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
           <folding />
         </state>
       </provider>
@@ -740,8 +717,50 @@
     <entry file="file://$PROJECT_DIR$/verk4/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
-          <caret line="29" column="66" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="29" selection-end-column="66" />
+          <caret line="29" column="66" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="29" selection-end-column="66" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verk4/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verk4/templates/forsida.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="6" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bokahilla/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bokahilla/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bokahilla/controllers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="61" lean-forward="false" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

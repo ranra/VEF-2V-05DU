@@ -8,8 +8,8 @@ from flask import render_template
 """
 # top level - index of all books (book list)
 @app.route('/')
-@app.route('/index')
-def index():
+@app.route('/index', endpoint = "indexindex")
+def indexindex():
     booklist = model.booklist   # Þarf að útfæra betur. Gagnavinnsla og hjúpun á að vera í model, nota getbooklist aðferð frekar.
     # View - the template to be completed / look and feel of the page
     return render_template('forsida.html', booklist=booklist)
@@ -18,8 +18,8 @@ def index():
 # next level - isbn letter code is a specific book
 # The International Standard Book Number (ISBN) is a unique  numeric commercial book identifier.
 # https://en.wikipedia.org/wiki/International_Standard_Book_Number
-@app.route("/book/<bookNUM>")
-def book(bookNUM):
+@app.route("/book/<bookNUM>", endpoint = "bookbook")
+def bookbook(bookNUM):
     print(int(bookNUM))
     # this is what "matched" will look like
     # matched = {"isbn":"0-943396-04-2","name":"Lord of the rings", "publisher":"KT Publishing"}
